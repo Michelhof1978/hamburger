@@ -2,20 +2,20 @@ body {
     margin: 0;
     font-family: Helvetica, sans-serif;
     background-color: #f4f4f4;
-   
+    margin-top: 155;
   }
   
-  
-  
-  /* header */
   a {
     color: #000;
     font-weight: bold;
   }
-
+  
+  /* header */
   .orange{
     color: #ff6600;
     font-size: 75px;
+    
+    
 }
 
   .header {
@@ -24,7 +24,6 @@ body {
     position: fixed;
     width: 100%;
     z-index: 3;
-    top: 0;
   }
   
   .header ul {
@@ -36,7 +35,7 @@ body {
   }
   
   .header li a {
-   
+    display: block;
     padding: 5px 5px;
     border-right: 1px solid #f4f4f4;
     text-decoration: none;
